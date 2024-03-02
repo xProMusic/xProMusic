@@ -1,0 +1,65 @@
+# Bot Commands
+PING_COMMAND : ["ping"]
+HELP_COMMAND : ["help"]
+SETTINGS_COMMAND : ["settings", "setting"]
+RELOAD_COMMAND : ["admincache", "reload", "refresh"]
+STATS_COMMAND : ["stats"]
+LANGUAGE_COMMAND : ["lang", "language", "langs"]
+
+# Play Commands
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAYMODE_COMMAND : ["playmode", "mode"]
+CHANNELPLAY_COMMAND : ["channelplay"]
+
+# Tools
+QUEUE_COMMAND : ["queue", "cqueue", "player", "cplayer", "playing", "cplaying"]
+
+# Admin Commands
+AUTH_COMMAND : ["auth"]
+UNAUTH_COMMAND : ["unauth"]
+AUTHUSERS_COMMAND : ["authusers", "authlist"]
+PAUSE_COMMAND : ["pause", "cpause"]
+RESUME_COMMAND : ["resume", "cresume"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend"]
+SKIP_COMMAND : ["skip", "cskip"]
+SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
+LOOP_COMMAND : ["loop", "cloop"]
+SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
+RESTART_COMMAND : ["restart"]
+
+
+# Sudo Users Commands
+
+# Sudo Command
+ADDSUDO_COMMAND : ["addsudo", "sudo"]
+DELSUDO_COMMAND : ["delsudo", "rmsudo"]
+SUDOUSERS_COMMAND : ["sudolist", "alts"]
+
+# Broadcast
+BROADCAST_COMMAND : ["broadcast", "gcast", "gcastx"]
+STOPBROADCAST_COMMAND : ["stopbroadcast", "stopgcast"]
+
+# Blacklist chat
+BLACKLISTCHAT_COMMAND : ["blacklistchat", "blchat"]
+WHITELISTCHAT_COMMAND : ["whitelistchat", "unblchat", "wlchat"]
+BLACKLISTEDCHAT_COMMAND : ["blacklistedchat", "blchats"]
+
+# Mantenance
+MAINTENANCE_COMMAND : ["maintenance"]
+
+# Mods
+GETLOG_COMMAND : ["logs", "getlog"]
+
+# Basic Bot Commands
+UPDATE_COMMAND : ["update", "gitpull"]
+REBOOT_COMMAND : ["reboot"]
+AUTOEND_COMMAND : ["autoend"]
+
+# Block Users Command
+BLOCK_COMMAND : ["block"]
+UNBLOCK_COMMAND : ["unblock"]
+BLOCKED_COMMAND : ["blockedusers", "blocked"]
+
+# Voice chat commands
+ACTIVEVC_COMMAND : ["activevoice", "aa"]
+ACTIVEVIDEO_COMMAND : ["activevideo", "av"]
