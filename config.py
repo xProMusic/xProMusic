@@ -71,11 +71,11 @@ lyrical = {}
 autoclean = []
 db = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/938d91267eedec0f8da06.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/059bdc61b0b8d2b9fa20f.jpg")
 
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "https://te.legra.ph/file/c5ae7505b832353b2dbfc.jpg")
 
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://graph.org/file/2fe478bf983f4e9963c68.jpg")
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://telegra.ph/file/0f3aa357548b6c377269d.jpg")
 
 TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL", "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg")
 
