@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "25981592"))
 API_HASH = getenv("API_HASH", "709f3c9d34d83873d3c7e76cdd75b866")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7007263085:AAFEPCdZ-QY5bIRU86zfdJSZoyVCQtiGCvo")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 DB_NAME = getenv("DB_NAME", 'xMusic')
