@@ -1,6 +1,6 @@
 {
     "name": "xMusic Bot",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls by @PyXen.",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls by @XproBots.",
     "logo": "https://te.legra.ph/file/938d91267eedec0f8da06.jpg",
     "keywords": ["python3", "telegram", "bot", "xPro", "MusicBot", "telegram-bot", "pyrogram"],
     "env": {
@@ -30,7 +30,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "A PyrogramV2 String Session. Genrated from @KavyaStringGeneratorBot",
         "value": "",
         "required": true
       },
@@ -56,7 +56,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "5e78f4ea-7d96-4e87-b70c-7364e4d6c8bb",
+        "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
@@ -66,7 +66,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1001954218150",
+        "value": "",
         "required": true
       }
     },
