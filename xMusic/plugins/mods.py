@@ -21,7 +21,7 @@ from xMusic.utils.database import get_active_chats, remove_active_chat, remove_a
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
 UPDATE_COMMAND = get_command("UPDATE_COMMAND")
-REBOOT_COMMAND = get_command("REBOOT_COMMAND")
+RESTART_COMMAND = get_command("RESTART_COMMAND")
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -104,7 +104,7 @@ async def update_(client, message, _):
     exit()
 
 
-@app.on_message(filters.command(REBOOT_COMMAND) & filters.user(OWNER_ID))
+@app.on_message(filters.command(RESTART_COMMAND) & filters.user(OWNER_ID))
 async def reboot_(_, message):
     response = await message.reply_text("ʀᴇsᴛᴀʀᴛɪɴɢ...")
     served_chats = await get_active_chats()
