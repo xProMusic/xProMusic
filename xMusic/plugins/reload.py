@@ -15,7 +15,7 @@ from xMusic.utils.decorators import ActualAdminCB, AdminActual, language
 
 
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
-RESTART_COMMAND = get_command("RESTART_COMMAND")
+REBOOT_COMMAND = get_command("REBOOT_COMMAND")
 
 
 @app.on_message(filters.command(RELOAD_COMMAND) & filters.group & ~BANNED_USERS)
@@ -36,7 +36,7 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text("ғᴀɪʟᴇᴅ ᴛᴏ ʀᴇғʀᴇsʜ ᴀᴅᴍɪɴs ʟɪsᴛ, ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ ᴩʀᴏᴍᴏᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ.")
 
 
-@app.on_message(filters.command(RESTART_COMMAND) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(REBOOT_COMMAND) & filters.group & ~BANNED_USERS)
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(f"ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ ʀᴇsᴛᴀʀᴛɪɴɢ {app.mention} ғᴏʀ ʏᴏᴜʀ ᴄʜᴀᴛ.")
